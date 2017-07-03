@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB59F94E1EC1DF9A000514F6 /* DB Museum.gpx in Resources */ = {isa = PBXBuildFile; fileRef = BB59F94D1EC1DF9A000514F6 /* DB Museum.gpx */; };
+		BB32CB8B1F0AF30F00AC2C15 /* DB Museum.gpx in Resources */ = {isa = PBXBuildFile; fileRef = BB32CB8A1F0AF30F00AC2C15 /* DB Museum.gpx */; };
 		BB59F9501EC1F98C000514F6 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB59F94F1EC1F98C000514F6 /* TabBarViewController.swift */; };
 		BBD1AE2A1EAE35DB00DD98EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD1AE291EAE35DB00DD98EF /* AppDelegate.swift */; };
 		BBD1AE2F1EAE35DB00DD98EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBD1AE2D1EAE35DB00DD98EF /* Main.storyboard */; };
@@ -44,7 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BB59F94D1EC1DF9A000514F6 /* DB Museum.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "DB Museum.gpx"; sourceTree = "<group>"; };
+		BB32CB8A1F0AF30F00AC2C15 /* DB Museum.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "DB Museum.gpx"; sourceTree = "<group>"; };
 		BB59F94F1EC1F98C000514F6 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarViewController.swift; path = "View Controllers/TabBarViewController.swift"; sourceTree = "<group>"; };
 		BBD1AE261EAE35DB00DD98EF /* FastLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBD1AE291EAE35DB00DD98EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -107,7 +107,7 @@
 		BBD1AE1D1EAE35DB00DD98EF = {
 			isa = PBXGroup;
 			children = (
-				BB59F94D1EC1DF9A000514F6 /* DB Museum.gpx */,
+				BB32CB8A1F0AF30F00AC2C15 /* DB Museum.gpx */,
 				BBD1AE281EAE35DB00DD98EF /* FastLocation */,
 				BBD1AE401EAE35DC00DD98EF /* FastLocationTests */,
 				BBD1AE4B1EAE35DC00DD98EF /* FastLocationUITests */,
@@ -306,7 +306,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB59F94E1EC1DF9A000514F6 /* DB Museum.gpx in Resources */,
+				BB32CB8B1F0AF30F00AC2C15 /* DB Museum.gpx in Resources */,
 				BBD1AE371EAE35DB00DD98EF /* LaunchScreen.storyboard in Resources */,
 				BBD1AE341EAE35DB00DD98EF /* Assets.xcassets in Resources */,
 				BBD1AE2F1EAE35DB00DD98EF /* Main.storyboard in Resources */,
