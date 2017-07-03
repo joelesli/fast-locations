@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:FastLocation.xcodeproj">
+      location = "self:/Users/joelesli/Documents/Code/MillianApps/fast-locations/FastLocations.xcodeproj">
    </FileRef>
 </Workspace>

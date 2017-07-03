@@ -46,17 +46,17 @@
 /* Begin PBXFileReference section */
 		BB32CB8A1F0AF30F00AC2C15 /* DB Museum.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "DB Museum.gpx"; sourceTree = "<group>"; };
 		BB59F94F1EC1F98C000514F6 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarViewController.swift; path = "View Controllers/TabBarViewController.swift"; sourceTree = "<group>"; };
-		BBD1AE261EAE35DB00DD98EF /* FastLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBD1AE261EAE35DB00DD98EF /* FastLocations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastLocations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBD1AE291EAE35DB00DD98EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBD1AE2E1EAE35DB00DD98EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BBD1AE311EAE35DB00DD98EF /* FastLocation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FastLocation.xcdatamodel; sourceTree = "<group>"; };
 		BBD1AE331EAE35DB00DD98EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBD1AE361EAE35DB00DD98EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBD1AE381EAE35DB00DD98EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BBD1AE3D1EAE35DC00DD98EF /* FastLocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastLocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBD1AE3D1EAE35DC00DD98EF /* FastLocationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastLocationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBD1AE411EAE35DC00DD98EF /* FastLocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastLocationTests.swift; sourceTree = "<group>"; };
 		BBD1AE431EAE35DC00DD98EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BBD1AE481EAE35DC00DD98EF /* FastLocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastLocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBD1AE481EAE35DC00DD98EF /* FastLocationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastLocationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBD1AE4C1EAE35DC00DD98EF /* FastLocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastLocationUITests.swift; sourceTree = "<group>"; };
 		BBD1AE4E1EAE35DC00DD98EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBD1AE5A1EAE3CF300DD98EF /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = "View Controllers/TableViewController.swift"; sourceTree = "<group>"; };
@@ -119,9 +119,9 @@
 		BBD1AE271EAE35DB00DD98EF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BBD1AE261EAE35DB00DD98EF /* FastLocation.app */,
-				BBD1AE3D1EAE35DC00DD98EF /* FastLocationTests.xctest */,
-				BBD1AE481EAE35DC00DD98EF /* FastLocationUITests.xctest */,
+				BBD1AE261EAE35DB00DD98EF /* FastLocations.app */,
+				BBD1AE3D1EAE35DC00DD98EF /* FastLocationsTests.xctest */,
+				BBD1AE481EAE35DC00DD98EF /* FastLocationsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -199,9 +199,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BBD1AE251EAE35DB00DD98EF /* FastLocation */ = {
+		BBD1AE251EAE35DB00DD98EF /* FastLocations */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BBD1AE511EAE35DC00DD98EF /* Build configuration list for PBXNativeTarget "FastLocation" */;
+			buildConfigurationList = BBD1AE511EAE35DC00DD98EF /* Build configuration list for PBXNativeTarget "FastLocations" */;
 			buildPhases = (
 				BBD1AE221EAE35DB00DD98EF /* Sources */,
 				BBD1AE231EAE35DB00DD98EF /* Frameworks */,
@@ -211,14 +211,14 @@
 			);
 			dependencies = (
 			);
-			name = FastLocation;
+			name = FastLocations;
 			productName = FastLocation;
-			productReference = BBD1AE261EAE35DB00DD98EF /* FastLocation.app */;
+			productReference = BBD1AE261EAE35DB00DD98EF /* FastLocations.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BBD1AE3C1EAE35DC00DD98EF /* FastLocationTests */ = {
+		BBD1AE3C1EAE35DC00DD98EF /* FastLocationsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BBD1AE541EAE35DC00DD98EF /* Build configuration list for PBXNativeTarget "FastLocationTests" */;
+			buildConfigurationList = BBD1AE541EAE35DC00DD98EF /* Build configuration list for PBXNativeTarget "FastLocationsTests" */;
 			buildPhases = (
 				BBD1AE391EAE35DC00DD98EF /* Sources */,
 				BBD1AE3A1EAE35DC00DD98EF /* Frameworks */,
@@ -229,14 +229,14 @@
 			dependencies = (
 				BBD1AE3F1EAE35DC00DD98EF /* PBXTargetDependency */,
 			);
-			name = FastLocationTests;
+			name = FastLocationsTests;
 			productName = FastLocationTests;
-			productReference = BBD1AE3D1EAE35DC00DD98EF /* FastLocationTests.xctest */;
+			productReference = BBD1AE3D1EAE35DC00DD98EF /* FastLocationsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BBD1AE471EAE35DC00DD98EF /* FastLocationUITests */ = {
+		BBD1AE471EAE35DC00DD98EF /* FastLocationsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BBD1AE571EAE35DC00DD98EF /* Build configuration list for PBXNativeTarget "FastLocationUITests" */;
+			buildConfigurationList = BBD1AE571EAE35DC00DD98EF /* Build configuration list for PBXNativeTarget "FastLocationsUITests" */;
 			buildPhases = (
 				BBD1AE441EAE35DC00DD98EF /* Sources */,
 				BBD1AE451EAE35DC00DD98EF /* Frameworks */,
@@ -247,9 +247,9 @@
 			dependencies = (
 				BBD1AE4A1EAE35DC00DD98EF /* PBXTargetDependency */,
 			);
-			name = FastLocationUITests;
+			name = FastLocationsUITests;
 			productName = FastLocationUITests;
-			productReference = BBD1AE481EAE35DC00DD98EF /* FastLocationUITests.xctest */;
+			productReference = BBD1AE481EAE35DC00DD98EF /* FastLocationsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -281,7 +281,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BBD1AE211EAE35DB00DD98EF /* Build configuration list for PBXProject "FastLocation" */;
+			buildConfigurationList = BBD1AE211EAE35DB00DD98EF /* Build configuration list for PBXProject "FastLocations" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -294,9 +294,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BBD1AE251EAE35DB00DD98EF /* FastLocation */,
-				BBD1AE3C1EAE35DC00DD98EF /* FastLocationTests */,
-				BBD1AE471EAE35DC00DD98EF /* FastLocationUITests */,
+				BBD1AE251EAE35DB00DD98EF /* FastLocations */,
+				BBD1AE3C1EAE35DC00DD98EF /* FastLocationsTests */,
+				BBD1AE471EAE35DC00DD98EF /* FastLocationsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -368,12 +368,12 @@
 /* Begin PBXTargetDependency section */
 		BBD1AE3F1EAE35DC00DD98EF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BBD1AE251EAE35DB00DD98EF /* FastLocation */;
+			target = BBD1AE251EAE35DB00DD98EF /* FastLocations */;
 			targetProxy = BBD1AE3E1EAE35DC00DD98EF /* PBXContainerItemProxy */;
 		};
 		BBD1AE4A1EAE35DC00DD98EF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BBD1AE251EAE35DB00DD98EF /* FastLocation */;
+			target = BBD1AE251EAE35DB00DD98EF /* FastLocations */;
 			targetProxy = BBD1AE491EAE35DC00DD98EF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -532,7 +532,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.joelesli.FastLocationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastLocation.app/FastLocation";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastLocations.app/FastLocations";
 			};
 			name = Debug;
 		};
@@ -547,7 +547,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.joelesli.FastLocationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastLocation.app/FastLocation";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastLocations.app/FastLocations";
 			};
 			name = Release;
 		};
@@ -582,7 +582,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BBD1AE211EAE35DB00DD98EF /* Build configuration list for PBXProject "FastLocation" */ = {
+		BBD1AE211EAE35DB00DD98EF /* Build configuration list for PBXProject "FastLocations" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BBD1AE4F1EAE35DC00DD98EF /* Debug */,
@@ -591,7 +591,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BBD1AE511EAE35DC00DD98EF /* Build configuration list for PBXNativeTarget "FastLocation" */ = {
+		BBD1AE511EAE35DC00DD98EF /* Build configuration list for PBXNativeTarget "FastLocations" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BBD1AE521EAE35DC00DD98EF /* Debug */,
@@ -600,7 +600,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BBD1AE541EAE35DC00DD98EF /* Build configuration list for PBXNativeTarget "FastLocationTests" */ = {
+		BBD1AE541EAE35DC00DD98EF /* Build configuration list for PBXNativeTarget "FastLocationsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BBD1AE551EAE35DC00DD98EF /* Debug */,
@@ -609,7 +609,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BBD1AE571EAE35DC00DD98EF /* Build configuration list for PBXNativeTarget "FastLocationUITests" */ = {
+		BBD1AE571EAE35DC00DD98EF /* Build configuration list for PBXNativeTarget "FastLocationsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BBD1AE581EAE35DC00DD98EF /* Debug */,
